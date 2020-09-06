@@ -38,7 +38,8 @@ The image comes with a development seed preconfigured. If you want to use your o
 ```
 vim ~/.aragon/mnemonic.json
 ```
-     
+
+<br>
 
 ##  ⛑ Help
 

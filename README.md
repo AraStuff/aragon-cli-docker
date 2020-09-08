@@ -13,7 +13,7 @@ Setting up an environment to use the aragonCLI can be tricky. This repo contains
 First pull the docker image
 
 ```
-docker pull pythonpete32/aragon-cli:1.1
+docker pull pythonpete32/aragon-cli:1.2
 ```
 
 Find the `IMAGE ID` by running 

@@ -8,6 +8,12 @@ RUN apt-get update && apt-get install -y \
  vim \
  sudo
 
+RUN ( echo "root:root" ) | chpasswd
+
+RUN ( echo "node:node" ) | chpasswd
+
+RUN usermod -aG sudo node
+
 USER node
 
 ENV NPM_CONFIG_PREFIX=/home/node/.npm-global

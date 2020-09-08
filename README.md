@@ -1,5 +1,5 @@
 # aragon-cli-docker
-Setting up an environment to use the aragonCLI can be tricky. This repo contains instructions for spinning up a docker container with all the aragonCLI and all the necessary dependencies installed. The image comes set up with a development seed and infura key for quick hacking
+Setting up an environment to use the aragonCLI can be tricky. This repo contains instructions for spinning up a docker container with the aragonCLI and all the necessary dependencies installed. The image comes set up with a development seed and infura key for quick hacking
 
 <br>
 
@@ -38,7 +38,8 @@ The image comes with a development seed preconfigured. If you want to use your o
 ```
 vim ~/.aragon/mnemonic.json
 ```
-     
+
+<br>
 
 ##  ⛑ Help
 
